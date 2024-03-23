@@ -8,6 +8,7 @@ async function main(){
     const respObject = await resp.json()
 
     // console.log(respObject)
+    
     return respObject.Answer[0].data
   }
 
