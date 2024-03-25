@@ -1,5 +1,5 @@
 function getMailtoLinkForEmail(email){
-  return `mailto:slayer@fquest.app`
+  return `mailto:${email}`
 }
 
 
