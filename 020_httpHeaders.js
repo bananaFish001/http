@@ -1,6 +1,8 @@
 async function main() {
     function logContentType(resp) {
         // ?
+        const headerVal = resp.headers.get('content-type')
+        console.log(headerVal)
       }
       
       // don't touch below this line
@@ -34,3 +36,5 @@ async function main() {
       }
       
 }
+
+main();
